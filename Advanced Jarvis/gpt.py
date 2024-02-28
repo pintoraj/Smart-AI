@@ -58,6 +58,7 @@ def TaskExe():
             predicted_word = []
 
             while True:
+                
                         ret, frame = cap.read()
 
                         if frame is None:
